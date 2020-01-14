@@ -1,4 +1,5 @@
 #include <iostream>
+
 //using namespace std;
 //
 //int pomnoz(int a, int b){
@@ -42,10 +43,10 @@ int main()
     cin >> a;
     cout << "Podaj b: " <<endl;
     cin >> b;
-
+    cout << odejmij(a,b)<<endl;
     cout << pomnoz(a,b) <<endl;
     cout << podziel(a,b) <<endl;
-    cout<<dodaj(a,b)<<endl;
+    cout << dodaj(a,b)<<endl;
     cout << "Inny komunikat!" << endl;
 
 
